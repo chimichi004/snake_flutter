@@ -1,0 +1,21 @@
+Set-up Flutter: 
+  
+1. Download flutter from the page https://flutter.dev/docs/get-started/install/windows
+2. Unzip the file to specific location
+3. Open the flutter_console.bat
+4. Type flutter /flutter doctor
+6. Download android studio
+7. Go to environment variables -> userd variables for <username> -> click Path -> click Edit -> add path file of unzip flutter folder -> click okay
+8. In android studio, install necessary files.
+9. Open android studio, open AVD Manager from Tools tab above.
+10. Set-up and download selected phone emulator and download necessary files.
+11. If there's an issue in regarding VM Accelarator like HAXM/Hyper-V. Find in youtube.
+12. Open gitbash/cmd -> type create flutter <project_name>
+14. Open it in android studio -> open existing project
+15. Install missing plugins (dart.plugin)
+16. Restart android studio IDE
+17. Once open, click the configure plugin pop-up lower-right.
+18. Click okay, and set-up the dart plugin
+19. Restart again android studio IDE
+20. Setup google usb driver. Click tools tab -> SDK manager -> SDK Tools tab -> download google usb driver
+21. In git_bash/cmd, type flutter doctor on your project folder

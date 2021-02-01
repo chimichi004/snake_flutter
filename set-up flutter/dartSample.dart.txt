@@ -1,0 +1,44 @@
+class Person {
+  String name;
+  int age;
+  
+//   Person(String name, int age) {
+//     this.name= name;
+//     this.age = age;
+//   }
+//  -> Person('Chember', 25);
+  
+//   Person({String name, int age}) {
+//     this.name= name;
+//     this.age = age;
+//   }
+// ->   Person(name:'Chumber', age:25); 
+  
+//     Person({ @required name, int age}) {
+//     this.name= name;
+//     this.age = age;
+//   }
+  
+  //shortcut from name to this.name
+  Person({this.name, this.age});
+  Person.veryOld(this.name){
+  age=60;
+  }
+}
+
+
+double addNumbers(double num1, double num2){
+  //print(num1 + num2);
+  return num1 + num2;
+}
+
+void main() {
+ // var pl = new Person('Chember', 25); //dart1
+ // var pl2 = Person('Chumber', 25); //dart2 version
+   var pl2 = Person(name:'Chumber', age:25); //dart2 version
+print(pl2);
+  double firstResult;
+   firstResult = addNumbers(1, 2.5);
+  print(firstResult);
+  print(pl2.name);
+}
