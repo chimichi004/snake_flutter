@@ -1,0 +1,82 @@
+/** Code tutorial
+-> void main() -> is a special function /an entry function
+-> void type function is a "no return function"
+-> dart is a type language
+-> add a data type in every argument / parameter
+-> add a type in every function to return a value
+-> function naming convention => camelCase
+-> variables naming convetion => camelCase
+-> variables data type [var,int,double,long,float,chat,String]
+-> variables are inferred
+-> class naming convention => PascalCase
+-> variables inside of a class are properties
+-> class is a blueprint of an object  
+#
+-> class extends one class at a time
+-> add a constructor
+-> memorize build context
+#
+-> learn based widgets
+-> always add a decorator @override
+# Types of widget
+-> Output * Input (visible)
+-> RaisedButton(),Text(), Card(), ...
+-> "Drawn onto the screen: What the user sees"
+-> Layout & Control (Invisible)
+-> Row(). Column(). ListView(), ...
+-> Give your app structure and controler how visible widgets
+   are drawn onto the screen (indirectly visible)
+-> Container(), both visible & invisible
+-> 'what\'s '
+#
+-> onPressed widget takes a function
+-> objects should standalone.
+-> when giving a function in the onPressed widget
+   remove parenthesis if no return function.
+# understanding State
+-> In general, data/info used by your App
+-> App Statem authenticated users, loaded jobs, ex
+-> Widget State, which widget is currently shown/used 
+# stateless vs stateful Widget
+-> stateless, Input data -> Widget -> Render UI
+-> data will set through constructor class
+-> data can change (externally)
+-> Flutter rebuild the widget when externally data changes
+-> Inside of widget class will never be change, 
+   unless the widget will rebuild
+-> stateful, Input data -> Widget -> Render UI
+-> data will set through constructor class
+-> data can change (externally) 
+-> In widget, there's Internal State
+-> Get the external data when re-rendered 
+-> data will can be change in Internal or externally
+-> Know how to refactor from stateless to stateful
+# Set-up stateful widget
+-> create class with extends StatefulWidget
+-> create another class with extends State
+   with pointer inside of angle_brackets <first_class>
+-> In the first_class, add method createState() method
+-> ex. State<StatefulWidge> createState()
+-> add a return of your second_class
+-> ex. return MyAppState();
+#
+-> In dart, adding underscore in the class name turn
+   the class from public to private
+-> In dart class, add a final in every property
+-> It is important or common to add final in every
+   property in the class. For the reason of not re-assigned
+-> 
+# multiple constructor
+-> Person.old / Person.young()
+https://api.flutter.dev/flutter/widgets/Widget-class.html
+# passing callback functions around
+-> const is a compiled constant
+-> final is a run-time constant
+-> if assigned value is constant and not the variable,
+   you can still reassigned new value/s.
+#Creat a getter and setter
+*/
+
+
+}
+
